@@ -32,4 +32,9 @@ public class BlogServiceImpl implements BlogService {
         blogRepository.deleteById(id);
 
     }
+
+    @Override
+    public Blog createBlog(Blog blog) {
+        return blogRepository.save(blog);
+    }
 }

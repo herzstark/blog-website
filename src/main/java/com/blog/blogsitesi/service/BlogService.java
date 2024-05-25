@@ -14,4 +14,6 @@ public interface BlogService {
     Blog update(Blog blog);
 
     void deleteByID(Long id);
+
+    Blog createBlog(Blog blog);
 }
