@@ -13,4 +13,8 @@ public interface UserService {
     User update(User user);
 
     void deleteByID(Long id);
+
+    User registerUser(User user);
+
+    User loginUser(String username, String password);
 }
