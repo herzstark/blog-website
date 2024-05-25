@@ -9,7 +9,7 @@ import java.util.Optional;
 
 public interface BlogService {
 
-    Optional<Blog> getByID(Long id);
+    Blog getByID(Long id);
 
     Blog update(Blog blog);
 
